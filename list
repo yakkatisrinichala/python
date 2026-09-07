@@ -1,0 +1,15 @@
+fruits =["apple", "banana", "cherry"]
+
+# Print the whole list
+print(fruits)
+
+# Print just the first item (remember, computers always start counting at 0)
+print(fruits[0])
+
+# Add a new item to the very end of the list
+fruits.append("orange")
+print(fruits)
+
+# Remove an item
+fruits.remove("banana")
+
