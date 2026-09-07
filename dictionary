@@ -1,0 +1,15 @@
+user = {
+    "username": "johndoe",
+    "email": "john@example.com",
+    "age": 30
+}
+
+# Grab the user's email
+print(user["email"])
+
+# Update the age
+user["age"] = 31
+
+# Add a brand new key and value
+user["country"] = "USA"
+print(user)
