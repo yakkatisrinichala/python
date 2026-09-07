@@ -1,0 +1,4 @@
+coordinates = (40.7128, -74.0060)
+print(coordinates[0])
+
+# coordinates.append(50) <-- This would throw an error and break your code!
