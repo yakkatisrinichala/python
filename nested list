@@ -1,0 +1,4 @@
+# Flatten a nested list
+nested = [[1, 2], [3, 4], [5, 6]]
+flat = [x for sublist in nested for x in sublist]
+print("Flattened list:", flat)
