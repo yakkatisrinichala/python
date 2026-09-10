@@ -1,0 +1,11 @@
+# Swap two numbers without using a third variable
+try:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+
+    # Pythonic swap
+    a, b = b, a
+
+    print(f"After swapping: a = {a}, b = {b}")
+except ValueError:
+    print("Please enter valid integers.")
