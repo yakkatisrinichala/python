@@ -1,0 +1,4 @@
+# Find duplicates in a list
+nums = [1, 2, 3, 2, 4, 5, 1, 6, 1]
+duplicates = list({x for x in nums if nums.count(x) > 1})
+print("Duplicates:", duplicates)
